@@ -1,0 +1,45 @@
+body {
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+h2{
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+h3{
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    font: bold;
+    margin: 0 0 0 0;
+}
+
+h4{
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    margin:0 0 0 0;
+}
+
+p{
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+table, tr{
+    width:18.5cm;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    vertical-align: text-top; 
+}
