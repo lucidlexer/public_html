@@ -1,0 +1,28 @@
+
+
+
+
+<script>
+$(document).ready(function()
+{
+	$("p").click(function()
+	{
+		$(this).hide();
+	});
+
+});
+
+$(document).ready(function()
+{
+	$("#butt").mouseenter(function()
+	{
+		$("p").append("DON'T TOUCH MY BUTT!!!");
+	});
+});
+</script>
+
+
+<body>
+	<p>Don't mouse over the butt(on)?</p>
+	<button id='butt'>The Butt</button>
+</body>

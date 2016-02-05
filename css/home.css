@@ -1,0 +1,25 @@
+/* Styles for the greeting of above the actual content */
+#Greeting-Right{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    }
+
+#Greeting-Left{
+    float: left;
+    width: 50%;
+    height: 450px%;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+
+#NamePlate{
+    width: 100%;
+    height: 50px;
+    font-size: 30;
+    text-align: center;
+}
+

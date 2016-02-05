@@ -1,0 +1,66 @@
+#resume_content{
+    width: 18.5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.resume h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+.resume h2{
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+.resume h3{
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    font: bold;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.resume h4{
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 18px;
+    font-style: normal;
+    margin:0 0 0 0;
+}
+
+.resume p{
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+.resume table,tr{
+    width:18.5cm;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    vertical-align: text-top; 
+    horizontal-align: center;
+}
+
+
+@media print{
+    .menu{
+	height: 0px;
+	width: 0px;
+	color: #ffffff;
+	}
+
+    .li{
+	font-size: 0px;
+	}
+
+}
